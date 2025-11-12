@@ -50,7 +50,7 @@
                 <key>DDJFLX2.toggleFourDeckMode</key>
                 <description>Headphones master + shift</description>
                 <status>0x96</status>
-                <midino>0x78</midino>
+                <midino>0x00</midino>
                 <options>
                     <script-binding/>
                 </options>
@@ -92,7 +92,7 @@
                 <key>DDJFLX2.toggleDeck</key>
                 <description>Deck 1: Headphone (pfl) + shift</description>
                 <status>0x90</status>
-                <midino>0x68</midino>
+                <midino>0x08</midino>
                 <options>
                     <script-binding/>
                 </options>
@@ -113,7 +113,7 @@
                 <key>DDJFLX2.toggleDeck</key>
                 <description>Deck 2: Headphone (pfl) + shift</description>
                 <status>0x91</status>
-                <midino>0x68</midino>
+                <midino>0x07</midino>
                 <options>
                     <script-binding/>
                 </options>
@@ -166,7 +166,7 @@
                 <key>enabled</key>
                 <description>Toggle Auto DJ On/Off</description>
                 <status>0x96</status>
-                <midino>0x59</midino>
+                <midino>0x01</midino>
                 <options>
                     <normal/>
                 </options>
@@ -176,7 +176,7 @@
                 <key>fade_now</key>
                 <description>Trigger the transition to the next track</description>
                 <status>0x96</status>
-                <midino>0x5A</midino>
+                <midino>0x09</midino>
                 <options>
                     <normal/>
                 </options>
