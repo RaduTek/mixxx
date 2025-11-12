@@ -161,7 +161,7 @@ DDJFLX2.touch = function (channel, control, value, status, group) {
   if (value) {
     // enable scratch
     var alpha = 1.0 / 8;
-    engine.scratchEnable(vDeckNo, 128, 33 + 1 / 3, alpha, alpha / 32);
+    engine.scratchEnable(vDeckNo, 480, 33 + 1 / 3, alpha, alpha / 32);
     // disable jog not to prevent track alignment
     DDJFLX2.vDeck[vDeckNo].jogEnabled = false;
   } else {
